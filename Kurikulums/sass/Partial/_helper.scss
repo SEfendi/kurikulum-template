@@ -1,0 +1,28 @@
+.title {
+  margin-top: 80px;
+  padding-bottom: 30px;
+  // color: $main-color;
+}
+.section {
+  padding: 50px 0px;
+
+  .special-title {
+    color: #313131;
+    font-weight: 400;
+    font-size: 30px;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #313131;
+    margin-bottom: 20px;
+  }
+
+  .special-text {
+    color: #3d3d3d;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+
+.start-rating {
+  color: #dda40b;
+}

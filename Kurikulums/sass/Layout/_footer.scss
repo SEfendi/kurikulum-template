@@ -1,0 +1,31 @@
+.footer {
+    
+    * {
+        font-size: 13px;
+        color: #a1a1a1 !important;
+        
+
+    }
+    .footer-social-item {
+        margin-right: 3px;
+        @media (max-width: 575px) {
+            display: none;
+        }
+        
+    }
+    .footer-social{
+        @media (max-width: 575px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .footer-list {
+        .footer-list-item:hover a{
+            color: #29303b!important;
+        }
+        @media (max-width: 420px) {
+            columns: 2;
+        }
+       
+    }
+}

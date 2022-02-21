@@ -1,0 +1,28 @@
+.subcripe-us {
+    .sub-form{
+        h2,h3{
+            color: white;
+        }
+    }
+    .sub-email {
+        color: #727272;
+        font-size: 14px;
+        font-weight: 500;
+        width: 59%;
+        border-radius: 10px;
+        border: 0;
+        padding: 10px;
+    }
+    .sub-send {
+        position: relative;
+        right: 37px;
+        top: 9px;
+    }
+    .sub-img{
+        img{
+            @media (max-width: 350px) {
+                width: 90%;
+            }
+        }
+    }
+}

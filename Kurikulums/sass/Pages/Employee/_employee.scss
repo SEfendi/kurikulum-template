@@ -1,0 +1,25 @@
+.employee {
+    padding-bottom: 0;
+    .form-group{
+        margin-bottom: 5%;
+    } 
+    .employee-form {
+        text-align: start;
+        label {
+            font-size: 14px;
+            font-weight: 500;
+            padding-left: 5px;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+        input {
+            color: #292929;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid #dddddd;
+            border-radius: 10px;
+            width: 100%;
+            padding: 10px 15px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  line-height: 20px;
+}
+.container {
+  // max-width: 1140px!important;
+  @media (min-width: 1200px) {
+  max-width: 1140px!important;
+  }
+  // @media (max-width: 992) {
+  //   width: 720px !important;
+  // }
+  // @media (max-width: 768) {
+  //   width: 540px !important;
+  // }
+}
+
+button {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none !important;
+  color: initial !important;
+}

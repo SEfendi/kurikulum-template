@@ -1,0 +1,174 @@
+.courses-detail {
+    // @include coursesCard;
+    background: #f5f7fa;
+    p {
+        font-size: medium;
+    }
+    .lesson-head-bg {
+        background: #29303b;
+        padding-top: 10px;
+    }
+
+    .entrytext {
+        color: white;
+    }
+    .buying-card {
+        padding: 10px;
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+        .line::after {
+            content: "";
+            display: inline-block;
+            height: 0.5em;
+            vertical-align: bottom;
+            width: 50%;
+            margin-right: -50%;
+            margin-left: 10px;
+            border-top: 1px solid #e5e5e5;
+        }
+    }
+    .buying-card-sticky {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 110% !important;
+
+        padding: 8%;
+        /* margin-right: 2%; */
+        position: sticky;
+        top: 20px;
+        display: block;
+        z-index: 1;
+        background-color: white;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+    }
+    .lesson-price {
+        font-size: 24px;
+        padding: 10px 0px;
+    }
+    .buy-now {
+        width: 100%;
+        background: limegreen;
+        font-size: x-large;
+        font-weight: bolder;
+        color: white;
+        padding: 3% 0;
+    }
+    .lesson-card-top {
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .lesson-info-title {
+        width: 100%;
+        padding-left: 16px;
+        .textcolor {
+            display: block;
+            width: 100%;
+            color: #3b5d5d;
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+    }
+    .lesson-detail {
+        display: block;
+        width: 100%;
+        font-size: 100%;
+    }
+    .lesson-src-item {
+        margin-bottom: 0;
+    }
+
+    .program-pills {
+        margin: 15px 0px 15px -13px;
+        padding: 0;
+        .nav-pills {
+            padding: 0 12px;
+            .navbutton {
+                padding: 5px 10px 5px 12px;
+                border-right: 1px solid #ddd;
+                font-size: 16px !important;
+            }
+        }
+    }
+
+    .card {
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        .card-header {
+            background-color: white;
+            border-radius: 0.5rem;
+            border-bottom: none;
+            padding: 0.75rem 1.25rem;
+            .lesson-name {
+                font-size: 14px;
+                b {
+                    color: #366577;
+                }
+            }
+        }
+        .video-card {
+            border-bottom: 1px solid whitesmoke;
+            .lesson-name {
+                font-size: 15px;
+                padding: 10px 0;
+                margin-bottom: 0;
+                .fa-play-circle {
+                    font-size: 13px !important;
+                    color: gray;
+                }
+                .fa-chart-bar {
+                    font-size: 11px !important;
+                    margin-left: 8px;
+                }
+            }
+        }
+        .video-card:last-child {
+            border: none;
+        }
+    }
+
+    .score {
+        .total-rank {
+            font-size: 50px;
+            text-align: center;
+            padding: 5% 0;
+        }
+        .total-rank-text {
+            font-size: large;
+        }
+
+        .progress {
+            height: 20px;
+            margin-bottom: 2%;
+            line-height: 0;
+            .progress-bar {
+                background-color: #17a2b8 !important;
+            }
+        }
+        .course-rank {
+            height: 20px;
+            margin-bottom: 2.5%;
+            @media (max-width: 992px) {
+                letter-spacing: -1.1px;
+            }
+        }
+    }
+
+    .statement-tools {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    // js class and hide
+
+    .active-b {
+        color: #8996fd !important;
+        font-weight: 600;
+    }
+
+    .hide-btn {
+        display: none;
+    }
+}
